@@ -14,7 +14,7 @@ std::vector<SOCKET> g_clients;
 bool Processor(SOCKET _cSock);
 
 int main() {
-	//q启动window socket 2.x环境
+	//q启动window socket 2.x环境tttt
 	WORD ver = MAKEWORD(2, 2);
 	WSADATA dat;
 	WSAStartup(ver, &dat);
